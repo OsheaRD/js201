@@ -21,6 +21,15 @@
 // isVowel(99) --> false
 // isVowel({e: 'Elephant'}) --> false
 
+const myArray = ['A','E','I','O','U','Y']
+function isVowel (letter) {
+    if (letter == myArray){
+        return true 
+    } else {
+        return false
+    }
+}
+console.log(isVowel('A'))
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,7 +46,14 @@
 // isOdd('7') --> false
 // isOdd(3.14) --> false
 
+function isEven(){
 
+
+}
+
+function isOdd{
+
+}
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write a function "isCapitalCity" that takes two arguments: a US state and a city name
@@ -52,3 +68,5 @@
 // isCapitalCity('Texas', 'Houston') --> false
 // isCapitalCity('Alaska', 'Juneau') --> true
 // isCapitalCity('Strawberry', 'Mango') --> false
+
+function isCapitalCit

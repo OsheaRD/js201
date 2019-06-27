@@ -10,6 +10,15 @@
 // tipAmount(100, 'good') --> 20
 // tipAmount(40, 'fair') --> 6
 
+const good = (100*.002)
+const fair = (100*.0015)
+const poor = (100*.001)
+
+function tipAmount (billAmount, levelOfService) {
+    return billAmount * levelOfService
+}
+console.log(tipAmount(155, good))
+
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20,6 +29,18 @@
 // Examples:
 // totalAmount(100, 'good') --> 120
 // totalAmount(40, 'fair') --> 46
+
+function totalAmount(number) {
+    return tipAmount() + number;
+};
+console.log(totalAmount(25))
+
+
+
+
+
+
+
 
 
 

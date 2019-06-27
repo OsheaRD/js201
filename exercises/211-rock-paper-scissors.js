@@ -6,3 +6,5 @@
 // rockPaperScissors('rock', 'scissors') --> 'player 1'
 // rockPaperScissors('rock', 'paper') --> 'player 2'
 // rockPaperScissors('paper', 'paper') --> 'draw'
+function rockPaperScissors (throwP1, throwP2)
+throwPossibilities ['rock', 'paper', 'scissors']
