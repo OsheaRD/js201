@@ -10,7 +10,11 @@
 // In this case, we assume that the person who is using "callNTimes" has defined
 // their function, and is passing it into our function as an argument (ie:
 // passing it around as a variable).
-//
+
+function callNTimes (num, func){
+    console.log()
+}
+
 // Example:
 // > callNTimes(5, hello)
 // Hello, world!

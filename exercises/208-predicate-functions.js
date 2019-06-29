@@ -23,13 +23,12 @@
 
 const myArray = ['A','E','I','O','U','Y']
 function isVowel (letter) {
-    if (letter == myArray){
+    if (myArray.includes(letter)){
         return true 
     } else {
         return false
     }
 }
-console.log(isVowel('A'))
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -46,14 +45,19 @@ console.log(isVowel('A'))
 // isOdd('7') --> false
 // isOdd(3.14) --> false
 
-function isEven(){
 
 
+function isEven(num1) {
+    if (num1 % 2 === 0)
+    return true
 }
 
-function isOdd{
-
+function isOdd(num2) {
+    if (num2 % 2 !== 0)
+    return false
 }
+
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write a function "isCapitalCity" that takes two arguments: a US state and a city name
@@ -69,4 +73,104 @@ function isOdd{
 // isCapitalCity('Alaska', 'Juneau') --> true
 // isCapitalCity('Strawberry', 'Mango') --> false
 
-function isCapitalCit
+
+let statesAndCapitals = {
+    Alabama: 'Montgomery',
+    Montana: 'Helena',
+    Alaska:    'Juneau',    
+    Nebraska: 'Lincoln',
+    Arizona: 'Phoenix',    
+    Nevada:    'Carson City',
+    Arkansas: 'Little Rock',    
+    'New Hampshire': 'Concord',
+    California:    'Sacramento',    
+    'New Jersey': 'Trenton',
+}
+const keys= object.keys(statesAndCapitals).array.forEach(element => {
+    (key=> { let value= statesAndCapitals[key]})
+});
+
+function isStateCapital(state, capital){
+    if (key= return true)}else{
+        return false
+    }
+
+
+let isCapitalCity
+
+
+    // let returnIsCapitalCity = (state, cityName) => 
+    // objectName[propName];
+    
+
+
+
+    returnIsCapitalCity('Alabama', 'Montgomery')
+    
+    
+    {
+        if (state MATCHES cityName) {
+        return true} 
+    }else{ return false
+    }
+    
+    isCapitalCity('Alabama', 'Montgomery') 
+
+
+
+
+
+
+    Colorado: 'Denver',    
+    'New Mexico': 'Santa Fe',
+    Connecticut: 'Hartford',    
+    'New York': 'Albany',
+    Delaware: 'Dover',    
+    'North Carolina': 'Raleigh',
+    Florida: 'Tallahassee',    
+    'North Dakota': 'Bismarck',
+    Georgia: 'Atlanta',    
+    Ohio: 'Columbus',
+    Hawaii:    'Honolulu',    
+    Oklahoma: 'Oklahoma City',
+    Idaho: 'Boise',    
+    Oregon:    'Salem',
+    Illinois: 'Springfield',    
+    Pennsylvania: 'Harrisburg',
+    Indiana: 'Indianapolis',    
+    'Rhode Island': 'Providence',
+    Iowa: 'Des Moines',    
+    'South Carolina': 'Columbia',
+    Kansas:    'Topeka',    
+    'South Dakota': 'Pierre',
+    Kentucky: 'Frankfort',    
+    Tennessee: 'Nashville',
+    Louisiana: 'Baton Rouge',
+    Texas: 'Austin',
+    Maine: 'Augusta',
+    Utah: 'Salt Lake City',
+    Maryland: 'Annapolis',    
+    Vermont: 'Montpelier',
+    Massachusetts: 'Boston',    
+    Virginia: 'Richmond',
+    Michigan: 'Lansing',    
+    Washington:    'Olympia',
+    Minnesota:    'St. Paul',    
+    'West Virginia': 'Charleston',
+    Mississippi: 'Jackson',    
+    Wisconsin: 'Madison',
+    Missouri: 'Jefferson City',    
+    Wyoming: 'Cheyenne'
+};
+
+
+
+// isCapitalCity('Texas', 'Houston') --> false
+
+// const keys = Object.keys(statesAndCapitals);
+
+// console.log(keys);
+
+// const values = Object.values(statesAndCapitals);
+
+// console.log(values);

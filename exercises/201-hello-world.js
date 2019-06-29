@@ -12,7 +12,7 @@ console.log(hello("Oshea"))
 // 'Hello, world!'
 // Otherwise it behaves the same as the "hello" function.
 function helloDefault (name = 'world!') {
-    console.log (`Hello + ${name} + "!"`)
+    console.log ((`Hello + ${name} + "!"`))
 } 
 (helloDefault())
 

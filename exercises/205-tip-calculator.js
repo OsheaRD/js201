@@ -30,11 +30,11 @@ console.log(tipAmount(155, good))
 // totalAmount(100, 'good') --> 120
 // totalAmount(40, 'fair') --> 46
 
-function totalAmount(number) {
+/*function totalAmount(number) {
     return tipAmount() + number;
 };
 console.log(totalAmount(25))
-
+*/
 
 
 
