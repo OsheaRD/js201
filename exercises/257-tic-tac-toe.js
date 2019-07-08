@@ -3,6 +3,10 @@
 // Return 'O' if O makes a winning row.
 // Return 'X' if X makes a winning row.
 // Return null if there is no winning row on the board.
+
+// conceptually could be a string of length 9
+
+
 //
 // Examples:
 // > ticTacToe([

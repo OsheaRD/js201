@@ -4,11 +4,29 @@
 // Examples:
 // numberJoinerWhile(1, 10) --> '1_2_3_4_5_6_7_8_9_10'
 // numberJoinerWhile(12, 14) --> '12_13_14'
+numberJoiner(start, end)
+let finalCount = start;
+while (start < end) {
+    console.log(finalCount+"_");
+    start++
+}
 
 
 
+// A while loop that prints 1, 2, and 3
+let counterTwo = 1;
+while (counterTwo < 4) {
+  console.log(counterTwo);
+  counterTwo++;
+}
 
 
+// >>>>  The join() method also joins all array elements into a string.
+
+// >>>> It behaves just like toString(), but in addition you can specify the separator:
+
+// >>>> var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// >>>> document.getElementById("demo").innerHTML = fruits.join(" * ");
   
 
 

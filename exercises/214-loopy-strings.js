@@ -4,11 +4,30 @@
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write a function "reverse" that computes the reversal of a string.
+
+function reverse(str){
+    let reversed = "";
+    
+  for(let char of str){
+      reversed = char + reversed;
+    }
+    return reversed;
+  }
+
+  reverse('Oshea')
+
+
+// OR THIS WAY !!! 
+
+function reverse(str){
+  return str.split("").reverse().join("");
+}
+
+console.log(reverse('Oshea is good'))
+
 //
 // Example:
 // reverse("skoob") --> "books"
-
-
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write a function "findLongestWord" that takes a string of words and returns
@@ -17,6 +36,9 @@
 //
 // Example:
 // findLongestWord('a book full of dogs') --> 'book'
+
+//function needs a string as input. then string becomes array. use .length method (?) or similar on array. 
+// Return first instance of that Number.
 
 
 
@@ -29,6 +51,8 @@
 // nicer('mom get the heck in here and bring me a darn sandwich.')
 // > 'mom get the in here and bring me a sandwich.'
 
+
+//
 
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -30,6 +30,24 @@ function isVowel (letter) {
     }
 }
 
+//   CLASS FINAL Example
+// function isVowel (char){
+//     return (typeof char === 'string') &&
+//     (char.length === 1) &&
+//     'aeiou'.indexOf(char.toLowerCase()) !== -1
+// }
+
+
+
+
+/* chris's explanation
+// function isVowel (char) {
+//     if (typeOf char !== 'string') return false
+//     if (char.length !== 1) return false
+
+//     const vowels = ['A','E','I','O','U','Y']
+//     return vowels.includes (char.toLowerCasse())
+*/
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Write two functions: "isEven" and "isOdd" that take a number argument and
@@ -45,17 +63,22 @@ function isVowel (letter) {
 // isOdd('7') --> false
 // isOdd(3.14) --> false
 
-
-
-function isEven(num1) {
-    if (num1 % 2 === 0)
-    return true
+function isOdd (num {
+ return typeof n === 'number' &&
+ (n % 2 ===1 || n % 2 === -1)
 }
 
-function isOdd(num2) {
-    if (num2 % 2 !== 0)
-    return false
-}
+
+
+// function isEven(num1) {
+//     if (num1 % 2 === 0)
+//     return true
+// }
+
+// function isOdd(num2) {
+//     if (num2 % 2 !== 0)
+//     return false
+// }
 
 
 
@@ -86,14 +109,20 @@ let statesAndCapitals = {
     California:    'Sacramento',    
     'New Jersey': 'Trenton',
 }
-const keys= object.keys(statesAndCapitals).array.forEach(element => {
-    (key=> { let value= statesAndCapitals[key]})
-});
 
-function isStateCapital(state, capital){
-    if (key= return true)}else{
-        return false
-    }
+
+// const keys= object.keys(statesAndCapitals).array.forEach(element => {
+//     (key=> { let value= statesAndCapitals[key]})
+// });
+
+// function isStateCapital(state, capital){
+//     if (key= return true)}else{
+//         return false
+//     }
+
+
+
+
 
 
 let isCapitalCity
