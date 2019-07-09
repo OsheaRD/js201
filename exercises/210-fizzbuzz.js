@@ -54,14 +54,6 @@ function test37(x)
   }
 }
 
-
-
-
-
-
-
-
-
 console.log()
 //     let countString = '';
 // let i = 0;
